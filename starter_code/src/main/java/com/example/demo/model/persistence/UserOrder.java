@@ -42,6 +42,9 @@ public class UserOrder {
 	@Column
 	private BigDecimal total;
 
+	public UserOrder() {
+	}
+
 	public Long getId() {
 		return id;
 	}
